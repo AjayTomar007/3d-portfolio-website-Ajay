@@ -84,12 +84,12 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Rishav Chanda</Logo>
+        <Logo>Ajay Singh Tomar</Logo>
         <Nav>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
           <NavLink href="#Experience">Experience</NavLink>
-          <NavLink href="#Projects">Projects</NavLink>
+          {/* <NavLink href="#Projects">Projects</NavLink> */}
           <NavLink href="#Education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
@@ -106,7 +106,7 @@ const Footer = () => {
             <Instagram />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Rishav Chanda. All rights reserved.</Copyright>
+        <Copyright>&copy; 20245 Ajay Singh Tomar. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
